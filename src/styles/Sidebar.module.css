@@ -1,0 +1,12 @@
+.sidebar {
+    background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  height: calc(100vh - 0px);
+}
+
+.button {
+    
+}
