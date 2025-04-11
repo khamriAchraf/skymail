@@ -1,12 +1,31 @@
 .sidebar {
-    background-color: red;
+  border-right: 1px solid white;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 250px;
+  justify-content: flex-start;
   height: calc(100vh - 0px);
+  padding: 20px;
+  padding-left: 50px;
+  font-family: 'Futura', sans-serif;
 }
 
 .button {
-    
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
+
+.email p {
+  color: rgba(255, 255, 255, 0.8);
+  
+}
+
+.icon {
 }
