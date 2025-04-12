@@ -1,12 +1,12 @@
 .sidebar {
-  border-right: 1px solid white;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   height: calc(100vh - 0px);
   padding: 20px;
+  padding-right: 0;
   padding-left: 50px;
-  font-family: 'Futura', sans-serif;
+  font-family: "futura", sans-serif;
 }
 
 .button {
@@ -16,16 +16,42 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   font-size: 16px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  
 }
 
 .email p {
   color: rgba(255, 255, 255, 0.8);
-  
 }
 
 .icon {
+}
+
+.sidebarItem {
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 42px;
+  width: 250px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.selectedDecorator {
+  height: auto;
+}
+
+.active {
+  color: white;
+}
+
+.filler {
+  flex: 1; 
+  background-image: url('/decHeavy.svg');
+  background-repeat: repeat-y;
+  background-position: right 0; /* adjust as needed */
 }
