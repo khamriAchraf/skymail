@@ -1,4 +1,13 @@
 .main {
-    display: flex;
+  display: flex;
 }
 
+.content {
+  padding-top: 20px;
+  width: 100%;
+}
+
+.search {
+    display: inline;
+    margin: 0 auto;
+}

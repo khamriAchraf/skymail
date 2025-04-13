@@ -2,6 +2,8 @@ import Head from 'next/head'
 import React from 'react'
 import styles from '@/styles/Layout.module.css'
 import Sidebar from './Sidebar'
+import Search from "../assets/search.svg";
+
 
 const Layout = ({ children }) => {
     return (
@@ -15,6 +17,7 @@ const Layout = ({ children }) => {
             <div className={styles.main}>
                 <Sidebar />
                 <main id="main" className={styles.content}>
+                    <Search className={styles.search} />
                     {children}
                 </main>
             </div>
